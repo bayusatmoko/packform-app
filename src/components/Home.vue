@@ -83,7 +83,7 @@ import axios from "axios";
       async fetchOrders() {
         this.loading = true
         let params = {
-          url: "packform-be/orders",
+          url: "http://localhost:8080/orders",
           method: "get",
           params: {
             keyword: this.keyword,
