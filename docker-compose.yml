@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  app:
+    container_name: packform-app
+    build: .
+    ports:
+      - 80:80
+    restart: on-failure
